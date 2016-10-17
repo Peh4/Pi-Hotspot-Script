@@ -232,7 +232,7 @@ echo 'DAEMON_CONF="/etc/hostapd/hostapd.conf"' >> /etc/default/hostapd
 check_returned_code $?
 display_message "Configuring hostapd"
 echo "interface=$LAN_INTERFACE
-driver=nl80211
+driver=8188eu-4.4.21-v7-911
 ssid=$HOTSPOT_NAME
 hw_mode=g
 channel=6
